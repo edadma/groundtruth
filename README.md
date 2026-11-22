@@ -45,6 +45,7 @@ used to write systems software, and has a released compiler that anyone can inst
 | Nim | nim (ORC) | reference counting |
 | Swift | swiftc | reference counting |
 | Go | go | GC |
+| Crystal | crystal | GC |
 | Ada | gnat | manual / controlled types |
 | Free Pascal | fpc | manual |
 | V | v | autofree / GC |
