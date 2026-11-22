@@ -34,22 +34,22 @@ used to write systems software, and has a released compiler that anyone can inst
 
 | Language | Compiler | Memory model |
 |---|---|---|
+| Ada | gnat | manual / controlled types |
 | C | clang | manual |
 | C++ | clang++ | RAII / manual |
-| Rust | rustc | ownership |
-| Zig | zig | manual |
-| Odin | odin | manual |
 | C3 | c3c | manual |
-| Hare | harec + qbe | manual |
-| D | ldc2 | GC (optional) |
-| Nim | nim (ORC) | reference counting |
-| Swift | swiftc | reference counting |
-| Go | go | GC |
 | Crystal | crystal | GC |
-| Ada | gnat | manual / controlled types |
+| D | ldc2 | GC (optional) |
 | Free Pascal | fpc | manual |
-| V | v | autofree / GC |
+| Go | go | GC |
+| Hare | harec + qbe | manual |
+| Nim | nim (ORC) | reference counting |
+| Odin | odin | manual |
+| Rust | rustc | ownership |
+| Swift | swiftc | reference counting |
 | sysl | sysl | reference counting |
+| V | v | autofree / GC |
+| Zig | zig | manual |
 
 The memory model is listed because it explains many of the results. A table of times is easy to misread
 without it.
