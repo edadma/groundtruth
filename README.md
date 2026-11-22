@@ -40,11 +40,11 @@ used to write systems software, and has a released compiler that anyone can inst
 | C3 | c3c | manual |
 | Crystal | crystal | GC |
 | D | ldc2 | GC (optional) |
-| Free Pascal | fpc | manual |
 | Go | go | GC |
 | Hare | harec + qbe | manual |
 | Nim | nim (ORC) | reference counting |
 | Odin | odin | manual |
+| Pascal | fpc (Free Pascal) | manual |
 | Rust | rustc | ownership |
 | Swift | swiftc | reference counting |
 | sysl | sysl | reference counting |
